@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* Add flex properties to align left and center vertically */
+}
+
+h1 {
+    font-size: 140px;
+    color: white;
+}
+
+#heading1 {
+    /* Add slide-in animation */
+    
+}
+
+#heading2 {
+    /* Add slide-in animation after delay */
+    
+}
+
+#heading3 {
+    /* Add slide-in animation after dealy */
+    
+}
+
+.nav {
+    height: 60vh;
+    /* Position on the right */
+
+    /* Use flex properties to space out links */
+
+    /* Add fade-in animation after delay */
+    
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    /* Add transition for hover effect */
+    
+}
+
+.nav a:hover {
+    /* Add nav link hover effect */
+}
