@@ -1,0 +1,12 @@
+.container1 {
+    background-image: url("background.jpg");
+    height:400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container2 {
+    background-image: linear-gradient(to right bottom,rgb(16, 16, 73), white);
+    height:400px;
+}

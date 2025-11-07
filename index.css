@@ -6,3 +6,52 @@
     flex-wrap: wrap;
     gap: 10px;
 }
+
+#image1 {
+    filter:grayscale(10%);
+}
+
+#image2 {
+    filter: blur(5px);
+    transition:0.5s;
+}
+
+#image2:hover {
+    filter:unset;
+}
+
+#image3 {
+    transition:0.5s;
+}
+
+#image3:hover {
+    filter:saturate(250%);
+    
+}
+
+@keyframes color-rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+#image4:active {
+    animation: color-rotate 1s;
+    animation-iteration-count: infinite;
+}
+
+#div1 {
+    background-color:rgb(20, 20, 105);
+    color:rgb(88, 88, 240);
+    width: 200px;
+    height:200px;
+    filter:blur(4px)
+}
+
+#div2 {
+    font-size: 60px;
+    filter: drop-shadow(4px 4px 1px blue)
+}
